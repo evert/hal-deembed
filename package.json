@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/evert/hal-deembed/issues"
   },
-  "homepage": "https://github.com/evert/hal-deembed#readme"
+  "homepage": "https://github.com/evert/hal-deembed#readme",
+  "dependencies": {
+    "ketting": "^0.10.3"
+  }
 }
