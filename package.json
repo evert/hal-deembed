@@ -1,0 +1,24 @@
+{
+  "name": "hal-deembed",
+  "version": "0.0.1",
+  "description": "A service-worker to automatically parse HAL embedded resources and warm the cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evert/hal-deembed.git"
+  },
+  "keywords": [
+    "hal",
+    "hateaos",
+    "service-worker"
+  ],
+  "author": "Evert Pot <me@evertpot.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evert/hal-deembed/issues"
+  },
+  "homepage": "https://github.com/evert/hal-deembed#readme"
+}
