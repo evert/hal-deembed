@@ -2,8 +2,25 @@
 <html>
   <head>
     <title>HAL Deembed Sample</title>
+    <script src="node_modules/ketting/dist/ketting.min.js"></script>
   </head>
   <body>
     <h1>HAL de-embed sample</h1>
   </body>
+
+  <script>
+
+    const testUri = 'http://localhost:3000/?embed=item';
+    const ketting = new Ketting(testUri);
+    const resource = ketting.getResource();
+
+    console.log('test Uri', testUri);
+
+    resource.get().then(result => {
+
+      console.log(result);
+
+    });
+
+  </script>
 </html>

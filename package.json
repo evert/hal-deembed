@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/evert/hal-deembed#readme",
   "dependencies": {
-    "ketting": "^0.10.3"
+    "ketting": "git+https://github.com/evert/ketting.git#accept-weighing"
   }
 }
